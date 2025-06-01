@@ -3,25 +3,49 @@
 <!-- Sets the language of the document to English -->
 <html lang="en">
 
-<!-- Contains meta-info, styles, and scripts for the page -->
+<!-- Contains meta-info, styles, and scripts for the website -->
 <head>
     <!-- Sets character encoding to UTF-8 -->
     <meta charset="UTF-8">
     <!-- Sets viewport for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Title shown in the browser tab -->
-    <title>Cats page</title>
+    <title>Cats website</title>
     <!-- Link to an external CSS file -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 
-<!-- Page layout starts here -->
+<!-- Website layout starts here -->
 <body>
     <!-- Header section -->
     <header>
         <!-- Navigation section -->
-        <nav>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="navbar-home">
+                <a href="#">world of cats</a>
+            </div>
+            <div class="navbar-sections">
+                <ul>
+                    <!-- Navigation links to different sections of the website -->
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Wish list</a></li>
+                    <li><a href="#">shopping cart</a></li>
+                </ul>
+                <ul>
+                    <!-- Navigation links to different sections of the website -->
+                    <li><a href="#">About cats</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
         </nav>
+        <!-- Search Section -->
+        <form class="search-bar" action="#" method="get">
+            <label>
+                <input type="search" placeholder="Search..." />
+            </label>
+            <button type="submit"></button>
+        </form>
     </header>
 
     <!-- Main section -->
@@ -37,6 +61,7 @@
 
     <!-- Footer section -->
     <footer>
+
     </footer>
 </body>
 
