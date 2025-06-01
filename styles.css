@@ -16,7 +16,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    font-family: 'Langar', sans-serif;
+    font-family: 'Langar', cursive;
+    position: sticky;
 }
 
 /* Navigation */
@@ -56,8 +57,8 @@ header {
 
 .navbar a {
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: lighter;
     color: #000;
 }
 
@@ -67,7 +68,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0;
-    background-color: #ff9898; /* fondo rosado */
+    background-color: #ff9898;
 }
 
 .search-bar label {
@@ -83,7 +84,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0.3rem 1.1rem;
-    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     border: none;
     outline: none;
@@ -97,4 +97,52 @@ header {
     border-radius: 50%;
     background-color: #cbc1f9;
     cursor: pointer;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Langar', cursive;
+    background-color: #ffc9c9;
+    color: #000;
+}
+
+footer h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.footer-pawprint {
+    position: absolute;
+    width: 9rem;
+    height: auto;
+    top: 0.3rem;
+    right: 2rem;
+}
+
+.footer-flower {
+    position: absolute;
+    width: 9rem;
+    height: auto;
+    bottom: 2rem;
+    left: 0.35rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 3rem 1.5rem;
+}
+
+footer ul li img {
+    width: 6rem;
+    height: auto;
 }
