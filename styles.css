@@ -113,11 +113,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.3rem;
+    padding: 1rem;
 }
 
 .shop-section h2 {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     text-align: center;
     font-size: 3rem;
     font-weight: lighter;
@@ -130,22 +130,46 @@ header {
     font-weight: lighter;
 }
 
+.shop-pawprint {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    top: 37rem;
+    left: 2rem;
+}
+
+.shop-flower-1 {
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    top: 36rem;
+    left: 38rem;
+}
+
+.shop-flower-2 {
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    bottom: 1rem;
+    right: 35rem;
+}
+
 .toys-subsection {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0 0 2rem 0;
 }
 
 .food-subsection {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 2rem 1rem 7rem 1rem;
+    padding: 2rem 0 7rem 0;
 }
 
 .first-item {
@@ -166,8 +190,40 @@ header {
     padding: 0 0 0 2rem;
 }
 
-.information-item {
+.info-toy-1 {
     position: absolute;
+    top: 20.5rem;
+    left: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-toy-2 {
+    position: absolute;
+    top: 23.3rem;
+    right: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-food-1 {
+    position: absolute;
+    top: 23rem;
+    left: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-food-2 {
+    position: absolute;
+    top: 23.5rem;
+    right: 9.4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
