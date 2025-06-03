@@ -86,7 +86,7 @@ header {
     width: 8rem;
     height: auto;
     top: 1rem;
-    left: 23rem;
+    left: 30rem;
 }
 
 .navbar-logo {
@@ -94,7 +94,7 @@ header {
     width: 10rem;
     height: auto;
     bottom: 1.5rem;
-    right: 5rem;
+    right: 10rem;
 }
 
 /* Search */
@@ -152,7 +152,7 @@ header {
 .about-cats-subtitle {
     position: absolute;
     top: 47rem;
-    left: 15rem;
+    left: 28rem;
     padding: 1rem 2rem;
     font-size: 3rem;
     font-weight: lighter;
@@ -161,18 +161,18 @@ header {
 
 .about-cats-image-1 {
     position: absolute;
-    width: 48%;
+    width: 20%;
     height: auto;
     top: 2rem;
-    left: -22.2rem;
+    left: 0;
 }
 
 .about-cats-image-2 {
     position: absolute;
-    width: 22%;
+    width: 20%;
     height: auto;
     right: 0;
-    bottom: 18rem;
+    bottom: 10rem;
 }
 
 /* About us subsection */
@@ -214,7 +214,7 @@ header {
 .circle-container {
     position: absolute;
     top: 1rem;
-    right: 9rem;
+    right: 15rem;
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -278,7 +278,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
     padding: 1rem;
     background-color: #ffc9c9;
@@ -286,11 +285,7 @@ header {
 
 .cat-needs-subsection ul {
     list-style-position: inside;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding: 1rem 30rem 1rem 0;
+    padding: 1rem 30rem 1rem 2rem;
 }
 
 ul.custom-list li::marker {
@@ -299,6 +294,7 @@ ul.custom-list li::marker {
 }
 
 .cat-needs-subsection ul li {
+    padding: 1rem 0;
     font-size: 2rem;
     text-align: center;
 }
