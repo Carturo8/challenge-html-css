@@ -67,6 +67,10 @@ header {
     color: #000;
 }
 
+.navbar a:hover {
+    color: #fff;
+}
+
 /* Search */
 .search-bar {
     display: flex;
@@ -88,23 +92,199 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.3rem 1.1rem;
-    font-size: 1rem;
+    padding: 0.5rem 1.1rem;
+    font-size: 1.5rem;
     border: none;
     outline: none;
 }
 
 .search-bar button {
     position: relative;
-    padding: 0.55rem;
-    right: 1.8rem;
+    padding: 0.8rem;
+    right: 2.3rem;
     border: none;
     border-radius: 50%;
     background-color: #cbc1f9;
     cursor: pointer;
 }
 
-/* Shop */
+.search-bar button:hover {
+    background-color: #ff007b;
+}
+
+/* About cats section */
+.about-cats-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cats-subtitle {
+    position: absolute;
+    top: 47rem;
+    left: 15rem;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    font-weight: lighter;
+    background-color: #f06b6b;
+}
+
+.about-cats-image-1 {
+    position: absolute;
+    width: 48%;
+    height: auto;
+    top: 2rem;
+    left: -22.2rem;
+}
+
+.about-cats-image-2 {
+    position: absolute;
+    width: 22%;
+    height: auto;
+    right: 0;
+    bottom: 18rem;
+}
+
+/* About us subsection */
+.about-us-subsection {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.about-us-info h2 {
+    margin: 8rem 3rem 3rem 3rem;
+    padding: 1rem 3.5rem;
+    font-family: 'Langar', cursive;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+    background-color: #f06b6b;
+}
+
+.about-us-info p {
+    margin: 0 0 8rem 0;
+    padding: 1rem 1rem 12rem 1rem;
+    text-align: start;
+    font-size: 2rem;
+}
+
+.circle-container {
+    position: absolute;
+    top: 1rem;
+    right: 9rem;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #ffb7b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.circle-container p {
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+}
+
+.discover-link {
+    display: inline-block;
+    padding: 0.6rem 3rem;
+    background-color: #f8aae0;
+    color: #ff007b;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.discover-link:hover {
+    background-color: black;
+}
+
+.about-us-pawprint-1 {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    top: 1rem;
+    left: 26.5rem;
+}
+
+.about-us-pawprint-2 {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    right: 1rem;
+}
+
+.about-us-flower {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    bottom: 8rem;
+    right: 25rem;
+}
+
+/* Cat needs subsection */
+.cat-needs-subsection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffc9c9;
+}
+
+.cat-needs-subsection ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem 30rem 1rem 0;
+}
+
+ul.custom-list li::marker {
+    color: #ff6b6b;
+    font-size: 4rem;
+}
+
+.cat-needs-subsection ul li {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cat-needs-pawprint {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+/* Shop section */
 .shop-section {
     width: 100%;
     height: 100%;
@@ -130,30 +310,7 @@ header {
     font-weight: lighter;
 }
 
-.shop-pawprint {
-    position: absolute;
-    width: 11rem;
-    height: auto;
-    top: 37rem;
-    left: 2rem;
-}
-
-.shop-flower-1 {
-    position: absolute;
-    width: 13rem;
-    height: auto;
-    top: 36rem;
-    left: 38rem;
-}
-
-.shop-flower-2 {
-    position: absolute;
-    width: 13rem;
-    height: auto;
-    bottom: 1rem;
-    right: 35rem;
-}
-
+/* Toys subsection */
 .toys-subsection {
     width: 100%;
     display: flex;
@@ -163,6 +320,7 @@ header {
     padding: 0 0 2rem 0;
 }
 
+/* Food subsection */
 .food-subsection {
     width: 100%;
     display: flex;
@@ -230,6 +388,30 @@ header {
     align-items: center;
 }
 
+.shop-pawprint {
+    position: absolute;
+    width: 11rem;
+    height: auto;
+    top: 37rem;
+    left: 2rem;
+}
+
+.shop-flower-1 {
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    top: 36rem;
+    left: 38rem;
+}
+
+.shop-flower-2 {
+    position: absolute;
+    width: 13rem;
+    height: auto;
+    bottom: 1rem;
+    right: 35rem;
+}
+
 /* Footer */
 footer {
     position: relative;
@@ -240,12 +422,29 @@ footer {
     padding: 1rem;
     font-family: 'Langar', cursive;
     background-color: #ffc9c9;
-    color: #000;
 }
 
 footer h2 {
     font-size: 3rem;
     font-weight: lighter;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 3rem 2rem;
+}
+
+footer ul li img {
+    width: 80%;
+    height: auto;
+}
+
+footer ul li img:hover {
+    background-color: #ff007b;
 }
 
 .footer-pawprint {
@@ -262,18 +461,4 @@ footer h2 {
     height: auto;
     bottom: 2rem;
     left: 1.5rem;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    display: inline-block;
-    padding: 3rem 2rem;
-}
-
-footer ul li img {
-    width: 80%;
-    height: auto;
 }
