@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Html */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Body */
 body {
     width: 100%;
